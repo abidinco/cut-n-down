@@ -5,7 +5,7 @@ a script to crop a short span of a long youtube video
 ### Requirements
 
  * [youtube-dl](https://github.com/rg3/youtube-dl) for list-formats and print-json methods
- * [jq](https://github.com/stedolan/jq) for parsing json
+ * [jq](https://stedolan.github.io/jq/) for parsing json
  * [ffmpeg](https://github.com/FFmpeg/FFmpeg) for cutting and downloading video from direct url
 
 Be sure that these libraries are working before process.
