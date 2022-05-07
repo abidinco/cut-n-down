@@ -27,3 +27,6 @@ Step by step:
 * ffmpeg > Cuts video's first 3 seconds
 
 The last step is required because of an unexpected result caused by ffmpeg (TODO).  The script uses the performant way of 'seek and save video'. Basically the command discards the seconds up until -ss parameter and saves the file the same duration as -t parameter, as a result some frames drop during this process. Therefore the last step is a temporary solution provided by myself and may be unable to work properly for every case.
+
+## Demo
+https://user-images.githubusercontent.com/71569044/167273214-1b23dec9-71bd-4671-a315-72241b508d7e.mp4
